@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AhorcadoPeliculas.cs" />
+    <Compile Remove="Biblioteca.cs" />
+    <Compile Remove="Contenido.cs" />
+    <Compile Remove="Genero.cs" />
+    <Compile Remove="GestionUsuarios.cs" />
+    <Compile Remove="Pelicula.cs" />
+    <Compile Remove="Publicacion.cs" />
+    <Compile Remove="Serie.cs" />
+    <Compile Remove="TotalContenidos.cs" />
+    <Compile Remove="Usuario.cs" />
+    <Compile Remove="Utilidades.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AhorcadoPeliculas.cs" />
+    <None Include="Biblioteca.cs" />
+    <None Include="Contenido.cs" />
+    <None Include="Genero.cs" />
+    <None Include="GestionUsuarios.cs" />
+    <None Include="Pelicula.cs" />
+    <None Include="Publicacion.cs" />
+    <None Include="Serie.cs" />
+    <None Include="TotalContenidos.cs" />
+    <None Include="Usuario.cs" />
+    <None Include="Utilidades.cs" />
+  </ItemGroup>
+
+</Project>
